@@ -1,0 +1,16 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.gen/sources_1/ip/dist_data_mem/sim/dist_data_mem.v,1650453710,verilog,,D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.gen/sources_1/ip/dist_ins_mem/sim/dist_ins_mem.v,,dist_data_mem,,,,,,,,
+D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.gen/sources_1/ip/dist_ins_mem/sim/dist_ins_mem.v,1650441420,verilog,,D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sources_1/new/alu.v,,dist_ins_mem,,,,,,,,
+D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sim_1/new/cpu_sim.v,1650292838,verilog,,,,cpu_sim,,,,,,,,
+D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sim_1/new/pdu_sim.v,1650439907,verilog,,,,pdu_sim,,,,,,,,
+D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sources_1/new/alu.v,1651128923,verilog,,D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sources_1/new/control.v,,alu,,,,,,,,
+D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sources_1/new/control.v,1651128988,verilog,,D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sources_1/new/cpu.v,,control,,,,,,,,
+D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sources_1/new/cpu.v,1650457136,verilog,,D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sources_1/new/imm.v,,ALU_control;MUX2;MUX3;cpu,,,,,,,,
+D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sources_1/new/imm.v,1650188401,verilog,,D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sources_1/new/pc_calc.v,,imm,,,,,,,,
+D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sources_1/new/pc_calc.v,1650454231,verilog,,D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sources_1/new/pdu.v,,pc_calc,,,,,,,,
+D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sources_1/new/pdu.v,1650436243,verilog,,D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sources_1/new/reg_file.v,,pdu_1cycle,,,,,,,,
+D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sources_1/new/reg_file.v,1650346885,verilog,,D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sim_1/new/pdu_sim.v,,reg_file,,,,,,,,

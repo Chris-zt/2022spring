@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Apr  6 20:39:00 2022
+# Process ID: 25020
+# Current directory: D:/OneDrive - USTC/2022spring/COD/Lab/Lab2/FIFO/FIFO.runs/impl_1
+# Command line: vivado.exe -log FIFO.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source FIFO.tcl -notrace
+# Log file: D:/OneDrive - USTC/2022spring/COD/Lab/Lab2/FIFO/FIFO.runs/impl_1/FIFO.vdi
+# Journal file: D:/OneDrive - USTC/2022spring/COD/Lab/Lab2/FIFO/FIFO.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source FIFO.tcl -notrace

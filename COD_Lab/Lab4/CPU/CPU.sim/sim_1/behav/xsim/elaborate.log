@@ -1,0 +1,27 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/WorkPlace/vivado/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto f5330e9938f34f9ebe0c2632162b462f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot pdu_sim_behav xil_defaultlib.pdu_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pc_calc
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_ins_mem
+Compiling module xil_defaultlib.control
+Compiling module xil_defaultlib.reg_file
+Compiling module xil_defaultlib.imm
+Compiling module xil_defaultlib.ALU_control
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.MUX2
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_data_mem
+Compiling module xil_defaultlib.MUX3
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.pdu_1cycle
+Compiling module xil_defaultlib.pdu_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot pdu_sim_behav

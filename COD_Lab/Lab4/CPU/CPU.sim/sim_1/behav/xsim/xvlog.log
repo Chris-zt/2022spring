@@ -1,0 +1,23 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.gen/sources_1/ip/dist_data_mem/sim/dist_data_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_data_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.gen/sources_1/ip/dist_ins_mem/sim/dist_ins_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_ins_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sources_1/new/control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-311] analyzing module ALU_control
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-311] analyzing module MUX3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sources_1/new/imm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imm
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sources_1/new/pc_calc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_calc
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sources_1/new/pdu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pdu_1cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sources_1/new/reg_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sim_1/new/pdu_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pdu_sim

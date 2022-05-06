@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+$finish called at time : 48 ns : File "D:/OneDrive - USTC/2022spring/COD/Lab/Lab2/IP_RAM_dis/IP_RAM_dis.srcs/sim_1/new/RAM_dis_sim.v" Line 80

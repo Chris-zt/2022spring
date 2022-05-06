@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: Too many words specified in data file dist_data_mem.mif
+$finish called at time : 120 ns : File "D:/OneDrive - USTC/2022spring/COD/Lab/Lab4/CPU/CPU.srcs/sim_1/new/pdu_sim.v" Line 56
