@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri May  6 23:57:18 2022
+# Process ID: 18860
+# Current directory: D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.runs/dist_inst_rom_synth_1
+# Command line: vivado.exe -log dist_inst_rom.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dist_inst_rom.tcl
+# Log file: D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.runs/dist_inst_rom_synth_1/dist_inst_rom.vds
+# Journal file: D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.runs/dist_inst_rom_synth_1\vivado.jou
+#-----------------------------------------------------------
+source dist_inst_rom.tcl -notrace
