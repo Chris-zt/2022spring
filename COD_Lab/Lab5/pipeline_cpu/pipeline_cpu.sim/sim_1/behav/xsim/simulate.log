@@ -1,0 +1,38 @@
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in tb_CPU.cpu.memory.inst at time                40000 ns: 
+Reading from out-of-range address. Max address in tb_CPU.cpu.memory.inst is         255
+WARNING in tb_CPU.cpu.memory.inst at time               100000 ns: 
+Reading from out-of-range address. Max address in tb_CPU.cpu.memory.inst is         255
+WARNING in tb_CPU.cpu.memory.inst at time               130000 ns: 
+Reading from out-of-range address. Max address in tb_CPU.cpu.memory.inst is         255
+WARNING in tb_CPU.cpu.memory.inst at time               180000 ns: 
+Reading from out-of-range address. Max address in tb_CPU.cpu.memory.inst is         255
+WARNING in tb_CPU.cpu.memory.inst at time               230000 ns: 
+Reading from out-of-range address. Max address in tb_CPU.cpu.memory.inst is         255
+WARNING in tb_CPU.cpu.memory.inst at time               270000 ns: 
+Reading from out-of-range address. Max address in tb_CPU.cpu.memory.inst is         255
+WARNING in tb_CPU.cpu.memory.inst at time               290000 ns: 
+Reading from out-of-range address. Max address in tb_CPU.cpu.memory.inst is         255
+WARNING in tb_CPU.cpu.memory.inst at time               310000 ns: 
+Reading from out-of-range address. Max address in tb_CPU.cpu.memory.inst is         255
+WARNING in tb_CPU.cpu.memory.inst at time               330000 ns: 
+Reading from out-of-range address. Max address in tb_CPU.cpu.memory.inst is         255
+WARNING in tb_CPU.cpu.memory.inst at time               350000 ns: 
+Reading from out-of-range address. Max address in tb_CPU.cpu.memory.inst is         255
+WARNING in tb_CPU.cpu.memory.inst at time               370000 ns: 
+Reading from out-of-range address. Max address in tb_CPU.cpu.memory.inst is         255
+WARNING in tb_CPU.cpu.memory.inst at time               390000 ns: 
+Reading from out-of-range address. Max address in tb_CPU.cpu.memory.inst is         255
+WARNING in tb_CPU.cpu.memory.inst at time               410000 ns: 
+Reading from out-of-range address. Max address in tb_CPU.cpu.memory.inst is         255
+WARNING in tb_CPU.cpu.memory.inst at time               430000 ns: 
+Reading from out-of-range address. Max address in tb_CPU.cpu.memory.inst is         255
+WARNING in tb_CPU.cpu.memory.inst at time               450000 ns: 
+Reading from out-of-range address. Max address in tb_CPU.cpu.memory.inst is         255
+WARNING in tb_CPU.cpu.memory.inst at time               470000 ns: 
+Reading from out-of-range address. Max address in tb_CPU.cpu.memory.inst is         255
+WARNING in tb_CPU.cpu.memory.inst at time               490000 ns: 
+Reading from out-of-range address. Max address in tb_CPU.cpu.memory.inst is         255
+$finish called at time : 500 ns : File "D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.srcs/sim_1/imports/new/tb_CPU.v" Line 16

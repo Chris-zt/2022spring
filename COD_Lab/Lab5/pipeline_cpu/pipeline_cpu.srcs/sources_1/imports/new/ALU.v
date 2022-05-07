@@ -1,11 +1,4 @@
-/*
- * @Author: Chris 
- * @Date: 2022-05-06 23:41:02 
- * @Last Modified by:   Chris 
- * @Last Modified time: 2022-05-06 23:41:02 
- */
 `timescale 1ns / 1ps
-
 
 // on basis of the COD 5th edition, we use the following parameters
 module ALU

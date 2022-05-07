@@ -1,9 +1,3 @@
-/*
- * @Author: Chris 
- * @Date: 2022-05-06 23:41:13 
- * @Last Modified by:   Chris 
- * @Last Modified time: 2022-05-06 23:41:13 
- */
 `timescale 1ns / 1ps
 
 
