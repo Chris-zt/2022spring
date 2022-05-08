@@ -19,6 +19,7 @@ module reg_file
 
 	reg [WIDTH-1:0] reg_file [0:31];
 
+	// ∂¡ºƒ¥Ê∆˜
 	always @(*) begin
 		case (forward)
 			// not outside forwarding, consider inner-register forwarding (WB->ID)
@@ -36,7 +37,7 @@ module reg_file
 					rd1 = reg_file[ra1];
 				end
 			end
-			// forward from EX, since a ALU result is needed
+			// from ALU to A
 			3'b001: begin
 				rd0 = ex;
 				if ((wa == ra1) && (|wa) && we) begin
@@ -46,6 +47,7 @@ module reg_file
 					rd1 = reg_file[ra1];
 				end
 			end
+			// from ALU to B
 			3'b010: begin
 				if ((wa == ra0) && (|wa) && we) begin
 					rd0 = wd;
@@ -55,6 +57,7 @@ module reg_file
 				end
 				rd1 = ex;
 			end
+			// from MEM to A
 			3'b011: begin
 				rd0 = mem;
 				if ((wa == ra1) && (|wa) && we) begin
@@ -63,6 +66,7 @@ module reg_file
 					rd1 = reg_file[ra1];
 				end
 			end
+			// from MEM to B
 			3'b100: begin
 				if ((wa == ra0) && (|wa) && we) begin
 					rd0 = wd;
@@ -78,6 +82,7 @@ module reg_file
 		endcase
 	end
 
+	// ≥ı ºªØ
 	integer i;						// loop varible
 	initial begin
 		for (i = 0; i < 32; i = i + 1) begin
@@ -85,6 +90,7 @@ module reg_file
 		end
 	end
 
+	// –¥ºƒ¥Ê∆˜
 	always @(posedge clk) begin
 		if (we && wa != 4'b0) begin
 			reg_file[wa] <= wd;
