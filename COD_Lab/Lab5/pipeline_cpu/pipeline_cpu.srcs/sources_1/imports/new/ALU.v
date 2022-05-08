@@ -1,8 +1,7 @@
 `timescale 1ns / 1ps
 
-// on basis of the COD 5th edition, we use the following parameters
 module ALU
-    #(parameter WIDTH = 32) 	// data width
+#(parameter WIDTH = 32) 	// data width
 (
     output reg [WIDTH-1:0] y,   // calculation result
     output reg zf,              // zero sign
@@ -14,12 +13,12 @@ module ALU
 	input [2:0] m				// type
 );
 
-	localparam ADD = 3'b010;
-    localparam SUBTRACT = 3'b110;
-    localparam AND = 3'b000;
-    localparam OR = 3'b001;
-    localparam XOR = 3'b100;
-    localparam SLT = 3'b111;
+	parameter ADD = 3'b010;
+    parameter SUBTRACT = 3'b110;
+    parameter AND = 3'b000;
+    parameter OR = 3'b001;
+    parameter XOR = 3'b100;
+    parameter SLT = 3'b111;
 
     always @(*) begin
 		{zf,of,cf,sf} = 4'b0000;

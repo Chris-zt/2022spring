@@ -2,12 +2,12 @@
 2020.2
 Jun 10 2021
 20:04:57
-D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.gen/sources_1/ip/dist_data_ram/sim/dist_data_ram.v,1651852582,verilog,,D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.gen/sources_1/ip/dist_inst_rom/sim/dist_inst_rom.v,,dist_data_ram,,,,,,,,
+D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.gen/sources_1/ip/dist_data_ram/sim/dist_data_ram.v,1651998516,verilog,,D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.gen/sources_1/ip/dist_inst_rom/sim/dist_inst_rom.v,,dist_data_ram,,,,,,,,
 D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.gen/sources_1/ip/dist_inst_rom/sim/dist_inst_rom.v,1651852633,verilog,,D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.srcs/sources_1/imports/new/ALU.v,,dist_inst_rom,,,,,,,,
 D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
 D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.srcs/sim_1/imports/new/tb_CPU.v,1651852519,verilog,,,,tb_CPU,,,,,,,,
-D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.srcs/sources_1/imports/new/ALU.v,1651851663,verilog,,D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.srcs/sources_1/imports/new/MUX.v,,ALU,,,,,,,,
-D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.srcs/sources_1/imports/new/MUX.v,1651851683,verilog,,D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.srcs/sources_1/imports/new/multi_mux.v,,mux,,,,,,,,
+D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.srcs/sources_1/imports/new/ALU.v,1651999907,verilog,,D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.srcs/sources_1/imports/new/MUX.v,,ALU,,,,,,,,
+D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.srcs/sources_1/imports/new/MUX.v,1652018466,verilog,,D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.srcs/sources_1/imports/new/multi_mux.v,,mux,,,,,,,,
 D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.srcs/sources_1/imports/new/multi_mux.v,1651851674,verilog,,D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.srcs/sources_1/imports/new/pipeline_CPU.v,,multi_mux,,,,,,,,
 D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.srcs/sources_1/imports/new/pipeline_CPU.v,1651852152,verilog,,D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.srcs/sources_1/imports/new/reg_file.v,,pipeline_cpu,,,,,,,,
 D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.srcs/sources_1/imports/new/reg_file.v,1651851697,verilog,,D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.srcs/sim_1/imports/new/tb_CPU.v,,reg_file,,,,,,,,

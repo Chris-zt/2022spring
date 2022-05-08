@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="dist_data_ram_synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1651852583">
+<GenRun Id="dist_data_ram_synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1651998518">
   <File Type="PA-TCL" Name="dist_data_ram.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="dist_data_ram_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="dist_data_ram_reports.tcl"/>
@@ -42,9 +42,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

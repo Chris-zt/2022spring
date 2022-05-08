@@ -6,12 +6,12 @@ module pipeline_cpu
 		input clk, rst
 	);
 
-	localparam [5:0] R_TYPE = 6'b000000;
-	localparam [5:0] LW = 6'b100011;
-	localparam [5:0] SW = 6'b101011;
-	localparam [5:0] BEQ = 6'b000100;
-	localparam [5:0] J_TYPE = 6'b000010;
-	localparam [2:0] ADDI = 6'b001000;
+	parameter [5:0] R_TYPE = 6'b000000;
+	parameter [5:0] ADDI = 6'b001000;		//me:把2改成了5
+	parameter [5:0] LW = 6'b100011;
+	parameter [5:0] SW = 6'b101011;
+	parameter [5:0] BEQ = 6'b000100;
+	parameter [5:0] J_TYPE = 6'b000010;
 
 	reg [WIDTH-1:0] NPC, IR;					// IF/ID inter-stages register
 	reg [WIDTH-1:0] A, B, IMM, RS, RT, RD;		// ID/EX inter-stages register
@@ -84,14 +84,14 @@ module pipeline_cpu
 	assign npc = PC + 4;
 
 	mux MUX_BEQ (
-		.m(PCSrc),
+		.sel(PCSrc),
 		.in_0(npc),
 		.in_1(pc_beq),
 		.out(not_jump)
 	);
 
 	mux MUX_JUMP (
-		.m(Jump),
+		.sel(Jump),
 		.in_0(not_jump),
 		.in_1(jump_addr),
 		.out(PC_final)
@@ -250,7 +250,7 @@ module pipeline_cpu
 	// EX
 	multi_mux MUX_ALU_A (
 		.n(2'd2),
-		.m(ForwardA),
+		.sel(ForwardA),
 		.in_0(A),
 		.in_1(reg_data),
 		.in_2(ALUOut),
@@ -269,7 +269,7 @@ module pipeline_cpu
 
 	// multi_mux MUX_ALU_B (
 	// 	.n(2'd3),
-	// 	.m(ALU_MUX),
+	// 	.sel(ALU_MUX),
 	// 	.in_0(B),
 	// 	.in_1(reg_data),
 	// 	.in_2(ALUOut),
@@ -279,7 +279,7 @@ module pipeline_cpu
 
 	multi_mux MUX_FINAL_B (
 		.n(2'd2),
-		.m(ForwardB),
+		.sel(ForwardB),
 		.in_0(B),
 		.in_1(reg_data),
 		.in_2(ALUOut),
@@ -290,7 +290,7 @@ module pipeline_cpu
 	assign func = IMM[5:0];
 
 	mux MUX_ALU_B (
-		.m(AluSrc_DE),
+		.sel(AluSrc_DE),
 		.in_0(final_b),
 		.in_1(IMM),
 		.out(alu_b)
@@ -341,7 +341,7 @@ module pipeline_cpu
 	);
 
 	mux MUX_REGDST (
-		.m(RegDst_DE),
+		.sel(RegDst_DE),
 		.in_0(rt),
 		.in_1(rd),
 		.out(rw_addr)
@@ -434,7 +434,7 @@ module pipeline_cpu
 
 	// WB
 	mux MUX_WB (
-		.m(MemtoReg_MW),
+		.sel(MemtoReg_MW),
 		.in_0(ADR),
 		.in_1(MDR),
 		.out(reg_data)
