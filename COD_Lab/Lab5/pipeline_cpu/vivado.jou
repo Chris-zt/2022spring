@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon May  9 23:26:41 2022
+# Process ID: 27604
+# Current directory: D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15136 D:\OneDrive - USTC\WorkPlace\2022spring\COD_Lab\Lab5\pipeline_cpu\pipeline_cpu.xpr
+# Log file: D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/vivado.log
+# Journal file: D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_CPU.tcl
+close_sim

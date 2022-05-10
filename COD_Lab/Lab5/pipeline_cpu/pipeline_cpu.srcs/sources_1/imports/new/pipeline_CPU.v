@@ -6,6 +6,7 @@ module pipeline_cpu
 		input clk, rst
 	);
 
+	//TODO:
 	parameter [5:0] R_TYPE = 6'b000000;
 	parameter [5:0] ADDI = 6'b001000;		//me:把2改成了5
 	parameter [5:0] LW = 6'b100011;
@@ -59,6 +60,11 @@ module pipeline_cpu
 	// Control Signals, in use, assigned from stage_regs
 	wire Zero, PCSrc;
 
+	//TODO:Meeting Simulation Needs
+	initial begin
+		IR = 32'h0000_0000;
+	end
+
 	assign op = IR[31:26];
 	assign haz = IR[25:16];
 	assign extend = {((IR[15]) ? 16'hffff : 16'h0000), IR[15:0]};
@@ -72,7 +78,7 @@ module pipeline_cpu
 	// IF
 	always @(posedge clk) begin
 		if (rst) begin
-			PC <= 0;
+			PC <= 32'h0000_0000;	//TODO:
 		end
 		else if (PCwe) begin
 			PC <= PC_final;
@@ -105,7 +111,8 @@ module pipeline_cpu
 	// IF/ID inter-stages registers
 	always @(posedge clk) begin
 		if (IFFlush) begin
-			NPC <= 0;
+			//NPC <= 0;
+			NPC <= 32'h0000_3000;	//TODO:
 			IR <= 0;
 		end
 		else begin
@@ -126,8 +133,11 @@ module pipeline_cpu
 		.forward(ForwardReg),
 		.ex(alu_result),
 		.mem(mem_out),
-		.ra0(IR[25:21]),
-		.ra1(IR[20:16]),
+		//TODO:为啥不是24:20 和 19:15
+		// .ra0(IR[25:21]),
+		// .ra1(IR[20:16]),
+		.ra0(IR[19:15]),
+		.ra1(IR[24:20]),
 		.rd0(a),
 		.rd1(b),
 		.wa(reg_addr),
@@ -136,10 +146,10 @@ module pipeline_cpu
 	);
 
 	// for BEQ and Jump
-	assign Zero = (a == b) ? 1'b1 : 1'b0;
+	assign Zero = (a == b) ? 1'b1 : 1'b0;	//TODO: 啥？
 	assign shift_left = extend << 2;
 	assign pc_beq = shift_left + NPC;
-	assign jump_addr = {NPC[31:28], IR[25:0], 2'b00};
+	assign jump_addr = {NPC[31:28], IR[25:0], 2'b00};	//TODO: 啥？
 
 	// Control Unit
 	always @(posedge clk) begin
@@ -148,6 +158,7 @@ module pipeline_cpu
 		end
 	end
 
+	//TODO: 啥？
 	always @(*) begin
 		{RegDst, Jump, Branch, MemRead, MemtoReg, RegWrite, MemWrite, ALUOp/*, IFFlush*/, AluSrc} = 0;
 		case (op)
@@ -183,6 +194,7 @@ module pipeline_cpu
 		endcase
 	end
 
+	//TODO:
 	// Hazard Detection Unit
 	// consider R-type, BEQ, BNE, SW at ID
 	// Priority considered
@@ -277,6 +289,7 @@ module pipeline_cpu
 	// 	.out(alu_b)
 	// );
 
+	//TODO:
 	multi_mux MUX_FINAL_B (
 		.n(2'd2),
 		.sel(ForwardB),
@@ -347,6 +360,7 @@ module pipeline_cpu
 		.out(rw_addr)
 	);
 
+	//TODO:
 	// Forwarding Unit
 	// NOT solved WB-start to MEM-start
 	// solved WB-start or MEM-start to EX-start

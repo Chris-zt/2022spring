@@ -1,0 +1,348 @@
+
+*** Running vivado
+    with args -log Run_ol.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Run_ol.tcl
+
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source Run_ol.tcl -notrace
+Command: synth_design -top Run_ol -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 31016
+WARNING: [Synth 8-1849] concatenation with unsized literal; will interpret as 32 bits [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/ALU.v:14]
+WARNING: [Synth 8-1849] concatenation with unsized literal; will interpret as 32 bits [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/ALU.v:14]
+WARNING: [Synth 8-1849] concatenation with unsized literal; will interpret as 32 bits [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/ALU.v:15]
+WARNING: [Synth 8-1849] concatenation with unsized literal; will interpret as 32 bits [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/ALU.v:15]
+WARNING: [Synth 8-1849] concatenation with unsized literal; will interpret as 32 bits [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/ALU.v:16]
+WARNING: [Synth 8-1849] concatenation with unsized literal; will interpret as 32 bits [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/ALU.v:16]
+WARNING: [Synth 8-1849] concatenation with unsized literal; will interpret as 32 bits [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/ALU.v:17]
+WARNING: [Synth 8-1849] concatenation with unsized literal; will interpret as 32 bits [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/ALU.v:17]
+WARNING: [Synth 8-1849] concatenation with unsized literal; will interpret as 32 bits [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/ALU.v:18]
+WARNING: [Synth 8-1849] concatenation with unsized literal; will interpret as 32 bits [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/ALU.v:18]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1120.402 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Run_ol' [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/Run_ol.v:4]
+INFO: [Synth 8-6157] synthesizing module 'CPU' [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/CPU.v:3]
+INFO: [Synth 8-6157] synthesizing module 'instruction_mem' [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.runs/synth_1/.Xil/Vivado-35980-LAPTOP-CHRIS/realtime/instruction_mem_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'instruction_mem' (1#1) [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.runs/synth_1/.Xil/Vivado-35980-LAPTOP-CHRIS/realtime/instruction_mem_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'IFID' [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/IFID.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'IFID' (2#1) [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/IFID.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Registers' [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/Registers.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Registers' (3#1) [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/Registers.v:1]
+WARNING: [Synth 8-689] width (8) of port connection 'ra2' does not match port width (5) of module 'Registers' [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/CPU.v:69]
+INFO: [Synth 8-6157] synthesizing module 'ImmGen' [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/ImmGen.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ImmGen' (4#1) [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/ImmGen.v:1]
+INFO: [Synth 8-6157] synthesizing module 'IDEX' [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/IDEX.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'IDEX' (5#1) [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/IDEX.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Control' [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/Control.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'Control' (6#1) [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/Control.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/ALU.v:3]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (7#1) [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/ALU.v:3]
+INFO: [Synth 8-6157] synthesizing module 'EXMEM' [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/EXMEM.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'EXMEM' (8#1) [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/EXMEM.v:3]
+INFO: [Synth 8-6157] synthesizing module 'data_mem' [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.runs/synth_1/.Xil/Vivado-35980-LAPTOP-CHRIS/realtime/data_mem_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'data_mem' (9#1) [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.runs/synth_1/.Xil/Vivado-35980-LAPTOP-CHRIS/realtime/data_mem_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'MEMWB' [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/MEMWB.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'MEMWB' (10#1) [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/MEMWB.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Forwarding' [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/Forwarding.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'Forwarding' (11#1) [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/Forwarding.v:3]
+INFO: [Synth 8-6157] synthesizing module 'WBIF' [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/WBIF.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'WBIF' (12#1) [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/WBIF.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Hazard' [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/Hazard.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'Hazard' (13#1) [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/Hazard.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'CPU' (14#1) [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/CPU.v:3]
+INFO: [Synth 8-6157] synthesizing module 'pdu' [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/pdu.v:3]
+WARNING: [Synth 8-6090] variable 'cnt_al_plr' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/pdu.v:158]
+INFO: [Synth 8-226] default block is never used [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/pdu.v:259]
+INFO: [Synth 8-6155] done synthesizing module 'pdu' (15#1) [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/pdu.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'Run_ol' (16#1) [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/Run_ol.v:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1120.402 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1120.402 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1120.402 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1120.402 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.gen/sources_1/ip/data_mem/data_mem/data_mem_in_context.xdc] for cell 'cpu/DM'
+Finished Parsing XDC File [d:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.gen/sources_1/ip/data_mem/data_mem/data_mem_in_context.xdc] for cell 'cpu/DM'
+Parsing XDC File [d:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.gen/sources_1/ip/instruction_mem/instruction_mem/instruction_mem_in_context.xdc] for cell 'cpu/IM'
+Finished Parsing XDC File [d:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.gen/sources_1/ip/instruction_mem/instruction_mem/instruction_mem_in_context.xdc] for cell 'cpu/IM'
+Parsing XDC File [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/constrs_1/imports/Sources/Nexys4DDR_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'ca'. [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/constrs_1/imports/Sources/Nexys4DDR_Master.xdc:60]
+WARNING: [Vivado 12-584] No ports matched 'cb'. [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/constrs_1/imports/Sources/Nexys4DDR_Master.xdc:61]
+WARNING: [Vivado 12-584] No ports matched 'cc'. [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/constrs_1/imports/Sources/Nexys4DDR_Master.xdc:62]
+WARNING: [Vivado 12-584] No ports matched 'cd'. [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/constrs_1/imports/Sources/Nexys4DDR_Master.xdc:63]
+WARNING: [Vivado 12-584] No ports matched 'ce'. [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/constrs_1/imports/Sources/Nexys4DDR_Master.xdc:64]
+WARNING: [Vivado 12-584] No ports matched 'cf'. [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/constrs_1/imports/Sources/Nexys4DDR_Master.xdc:65]
+WARNING: [Vivado 12-584] No ports matched 'cg'. [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/constrs_1/imports/Sources/Nexys4DDR_Master.xdc:66]
+WARNING: [Vivado 12-584] No ports matched 'an[3]'. [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/constrs_1/imports/Sources/Nexys4DDR_Master.xdc:73]
+WARNING: [Vivado 12-584] No ports matched 'an[4]'. [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/constrs_1/imports/Sources/Nexys4DDR_Master.xdc:74]
+WARNING: [Vivado 12-584] No ports matched 'an[5]'. [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/constrs_1/imports/Sources/Nexys4DDR_Master.xdc:75]
+WARNING: [Vivado 12-584] No ports matched 'an[6]'. [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/constrs_1/imports/Sources/Nexys4DDR_Master.xdc:76]
+WARNING: [Vivado 12-584] No ports matched 'an[7]'. [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/constrs_1/imports/Sources/Nexys4DDR_Master.xdc:77]
+Finished Parsing XDC File [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/constrs_1/imports/Sources/Nexys4DDR_Master.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/constrs_1/imports/Sources/Nexys4DDR_Master.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/Run_ol_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/constrs_1/imports/Sources/Nexys4DDR_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Run_ol_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Run_ol_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/constrs_1/imports/sources_1/FPGAOL.xdc]
+Finished Parsing XDC File [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/constrs_1/imports/sources_1/FPGAOL.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/constrs_1/imports/sources_1/FPGAOL.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Run_ol_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Run_ol_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1121.895 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1121.895 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:16 . Memory (MB): peak = 1121.895 ; gain = 1.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:16 . Memory (MB): peak = 1121.895 ; gain = 1.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for cpu/DM. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for cpu/IM. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 1121.895 ; gain = 1.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 1121.895 ; gain = 1.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   32 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 2     
+	   2 Input    5 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 3     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	               32 Bit    Registers := 20    
+	                5 Bit    Registers := 9     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 8     
++---RAMs : 
+	             1024 Bit	(32 X 32 bit)          RAMs := 1     
++---Muxes : 
+	   5 Input   32 Bit        Muxes := 1     
+	   7 Input   32 Bit        Muxes := 1     
+	   6 Input   32 Bit        Muxes := 2     
+	   2 Input   32 Bit        Muxes := 3     
+	   4 Input   32 Bit        Muxes := 8     
+	   2 Input    8 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 2     
+	   4 Input    5 Bit        Muxes := 1     
+	   6 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 8     
+	   2 Input    2 Bit        Muxes := 8     
+	   2 Input    1 Bit        Muxes := 12    
+	   4 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:24 . Memory (MB): peak = 1121.895 ; gain = 1.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------+--------------------+-----------+----------------------+--------------+
+|Module Name | RTL Object         | Inference | Size (Depth x Width) | Primitives   | 
++------------+--------------------+-----------+----------------------+--------------+
+|Run_ol      | cpu/RF/regfile_reg | Implied   | 32 x 32              | RAM32M x 18  | 
++------------+--------------------+-----------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:30 . Memory (MB): peak = 1121.895 ; gain = 1.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:35 . Memory (MB): peak = 1188.488 ; gain = 68.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++------------+--------------------+-----------+----------------------+--------------+
+|Module Name | RTL Object         | Inference | Size (Depth x Width) | Primitives   | 
++------------+--------------------+-----------+----------------------+--------------+
+|Run_ol      | cpu/RF/regfile_reg | Implied   | 32 x 32              | RAM32M x 18  | 
++------------+--------------------+-----------+----------------------+--------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:36 . Memory (MB): peak = 1198.543 ; gain = 78.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:40 . Memory (MB): peak = 1198.543 ; gain = 78.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:40 . Memory (MB): peak = 1198.543 ; gain = 78.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:40 . Memory (MB): peak = 1198.543 ; gain = 78.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:40 . Memory (MB): peak = 1198.543 ; gain = 78.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:40 . Memory (MB): peak = 1198.543 ; gain = 78.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:40 . Memory (MB): peak = 1198.543 ; gain = 78.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+----------------+----------+
+|      |BlackBox name   |Instances |
++------+----------------+----------+
+|1     |instruction_mem |         1|
+|2     |data_mem        |         1|
++------+----------------+----------+
+
+Report Cell Usage: 
++------+----------------+------+
+|      |Cell            |Count |
++------+----------------+------+
+|1     |data_mem        |     1|
+|2     |instruction_mem |     1|
+|3     |BUFG            |     2|
+|4     |CARRY4          |    29|
+|5     |LUT1            |     2|
+|6     |LUT2            |    77|
+|7     |LUT3            |    46|
+|8     |LUT4            |    41|
+|9     |LUT5            |   121|
+|10    |LUT6            |   354|
+|11    |MUXF7           |     4|
+|12    |RAM32M          |    15|
+|13    |RAM32X1D        |     6|
+|14    |FDCE            |    84|
+|15    |FDPE            |    19|
+|16    |FDRE            |   562|
+|17    |IBUF            |    10|
+|18    |OBUF            |    15|
++------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:40 . Memory (MB): peak = 1198.543 ; gain = 78.141
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:38 . Memory (MB): peak = 1198.543 ; gain = 76.648
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:41 . Memory (MB): peak = 1198.543 ; gain = 78.141
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 1201.383 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 54 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1205.090 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 21 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 15 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 6 instances
+
+Synth Design complete, checksum: 8ae32708
+INFO: [Common 17-83] Releasing license: Synthesis
+49 Infos, 25 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:46 . Memory (MB): peak = 1205.090 ; gain = 84.688
+INFO: [Common 17-1381] The checkpoint 'D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.runs/synth_1/Run_ol.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Run_ol_utilization_synth.rpt -pb Run_ol_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue May 10 22:54:33 2022...

@@ -1,0 +1,9 @@
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: Too many words specified in data file dist_data_ram.mif
+WARNING in tb_CPU.cpu.instruction.inst at time                20000 ns: 
+Reading from out-of-range address. Max address in tb_CPU.cpu.instruction.inst is         255
+WARNING in tb_CPU.cpu.memory.inst at time                50000 ns: 
+Reading from out-of-range address. Max address in tb_CPU.cpu.memory.inst is         255
+$finish called at time : 500 ns : File "D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.srcs/sim_1/imports/new/tb_CPU.v" Line 16

@@ -8,13 +8,14 @@ module ALU
     output reg cf,              // jinwei sign
 	output reg of,				// yichu
 	output reg sf,				// for signed cal
+	
 	input [WIDTH-1:0] a,
 	input [WIDTH-1:0] b,
 	input [2:0] m				// type
 );
 
 	parameter ADD = 3'b010;
-    parameter SUBTRACT = 3'b110;
+    parameter SUB = 3'b110;
     parameter AND = 3'b000;
     parameter OR = 3'b001;
     parameter XOR = 3'b100;
@@ -28,7 +29,7 @@ module ALU
 				of = (~a[WIDTH-1] & ~b[WIDTH-1] & y[WIDTH-1]) | (a[WIDTH-1] & b[WIDTH-1] & ~y[WIDTH-1]);
 				zf = ~|y;
 			end
-			SUBTRACT: begin
+			SUB: begin
 				{cf, y} = a - b;
 				of = (~a[WIDTH-1] & b[WIDTH-1] & y[WIDTH-1]) | (a[WIDTH-1] & ~b[WIDTH-1] & ~y[WIDTH-1]);
 				zf = ~|y;

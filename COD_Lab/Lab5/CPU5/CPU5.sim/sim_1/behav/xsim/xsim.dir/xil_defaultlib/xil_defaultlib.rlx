@@ -1,0 +1,20 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.gen/sources_1/ip/data_mem/sim/data_mem.v,1652193794,verilog,,D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.gen/sources_1/ip/instruction_mem/sim/instruction_mem.v,,data_mem,,,,,,,,
+D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.gen/sources_1/ip/instruction_mem/sim/instruction_mem.v,1652193672,verilog,,D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/ALU.v,,instruction_mem,,,,,,,,
+D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.sim/sim_1/behav/xsim/glbl.v,1652152403,verilog,,,,glbl,,,,,,,,
+D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sim_1/new/sim_debug.v,1652189740,verilog,,,,sim_debug,,,,,,,,
+D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/ALU.v,1652178333,verilog,,D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/CPU.v,,ALU,,,,,,,,
+D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/ImmGen.v,1652152404,verilog,,D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/MEMWB.v,,ImmGen,,,,,,,,
+D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/Registers.v,1652182969,verilog,,D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/WBIF.v,,Registers,,,,,,,,
+D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/CPU.v,1652197330,verilog,,D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/Control.v,,CPU,,,,,,,,
+D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/Control.v,1652155466,verilog,,D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/EXMEM.v,,Control,,,,,,,,
+D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/EXMEM.v,1652155271,verilog,,D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/Forwarding.v,,EXMEM,,,,,,,,
+D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/Forwarding.v,1652177516,verilog,,D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/Hazard.v,,Forwarding,,,,,,,,
+D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/Hazard.v,1652155280,verilog,,D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/IDEX.v,,Hazard,,,,,,,,
+D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/IDEX.v,1652155285,verilog,,D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/IFID.v,,IDEX,,,,,,,,
+D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/IFID.v,1652155289,verilog,,D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/ImmGen.v,,IFID,,,,,,,,
+D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/MEMWB.v,1652152405,verilog,,D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/Registers.v,,MEMWB,,,,,,,,
+D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sources_1/new/WBIF.v,1652155310,verilog,,D:/OneDrive - USTC/WorkPlace/2022spring/COD_Lab/Lab5/CPU5/CPU5.srcs/sim_1/new/sim_debug.v,,WBIF,,,,,,,,

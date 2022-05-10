@@ -1,10 +1,10 @@
 // Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
-// Date        : Fri May  6 23:57:55 2022
+// Date        : Mon May  9 23:08:08 2022
 // Host        : LAPTOP-CHRIS running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub {d:/OneDrive -
-//               USTC/WorkPlace/2022spring/COD_Lab/Lab5/pipeline_cpu/pipeline_cpu.gen/sources_1/ip/dist_inst_rom/dist_inst_rom_stub.v}
+// Command     : write_verilog -force -mode synth_stub -rename_top dist_inst_rom -prefix
+//               dist_inst_rom_ dist_inst_rom_stub.v
 // Design      : dist_inst_rom
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7a100tcsg324-1

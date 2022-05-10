@@ -17,9 +17,10 @@ module reg_file
 		input [WIDTH-1:0] wd		// write port data
 	);
 
+
 	reg [WIDTH-1:0] reg_file [0:31];
 
-	// ∂¡ºƒ¥Ê∆˜
+	// ?
 	always @(*) begin
 		case (forward)
 			// not outside forwarding, consider inner-register forwarding (WB->ID)
@@ -76,13 +77,16 @@ module reg_file
 				rd1 = mem;
 			end
 			default: begin
-				rd0 = 'dz;
-				rd1 = 'dz;
+				//TODO:
+				// rd0 = 'dz;
+				// rd1 = 'dz;
+				rd0 = 32'h0000_0000;
+				rd1 = 32'h0000_0000;
 			end
 		endcase
 	end
 
-	// ≥ı ºªØ
+	// ???
 	integer i;						// loop varible
 	initial begin
 		for (i = 0; i < 32; i = i + 1) begin
@@ -90,7 +94,7 @@ module reg_file
 		end
 	end
 
-	// –¥ºƒ¥Ê∆˜
+	// ?
 	always @(posedge clk) begin
 		if (we && wa != 4'b0) begin
 			reg_file[wa] <= wd;
